@@ -8860,21 +8860,21 @@ Music: Twins
 Double Battle: Yes
 AI: Check Bad Move
 
-Beautifly  
-Level: 10
+Illumise 
+Level: 9
 Ability: Swarm  
 - Tackle  
-- Harden  
-- Absorb  
-- String Shot
+- Sweet Scent
+- Charm 
+- Sunny Day
 
-Dustox
-Level: 10
+Volbeat
+Level: 9
 Ability: Shield Dust  
-- Poison Sting  
-- Confusion  
+- Double Team
+- Confuse Ray
 - Tackle  
-- String Shot
+- SolarBeam
 
 === TRAINER_MIU_AND_YUKI ===
 Name: MIU & YUKI

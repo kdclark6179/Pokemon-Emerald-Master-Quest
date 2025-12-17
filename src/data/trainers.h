@@ -22140,42 +22140,42 @@ F_TRAINER_FEMALE |
         {
             {
 #line 8863
-            .species = SPECIES_BEAUTIFLY,
+            .species = SPECIES_ILLUMISE,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 8866
             .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
 #line 8865
             .ability = ABILITY_SWARM,
 #line 8864
-            .lvl = 10,
+            .lvl = 9,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 8866
                 MOVE_TACKLE,
-                MOVE_HARDEN,
-                MOVE_ABSORB,
-                MOVE_STRING_SHOT,
+                MOVE_SWEET_SCENT,
+                MOVE_CHARM,
+                MOVE_SUNNY_DAY,
             },
             },
             {
 #line 8871
-            .species = SPECIES_DUSTOX,
+            .species = SPECIES_VOLBEAT,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 8874
             .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
 #line 8873
             .ability = ABILITY_SHIELD_DUST,
 #line 8872
-            .lvl = 10,
+            .lvl = 9,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 8874
-                MOVE_POISON_STING,
-                MOVE_CONFUSION,
+                MOVE_DOUBLE_TEAM,
+                MOVE_CONFUSE_RAY,
                 MOVE_TACKLE,
-                MOVE_STRING_SHOT,
+                MOVE_SOLARBEAM,
             },
             },
         },
