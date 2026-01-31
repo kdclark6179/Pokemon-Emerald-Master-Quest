@@ -6295,14 +6295,14 @@ F_TRAINER_FEMALE |
 #line 2566
             .ability = ABILITY_INNER_FOCUS,
 #line 2567
-            .lvl = 10,
+            .lvl = 8,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 2568
                 MOVE_THUNDER_PUNCH,
                 MOVE_ICE_PUNCH,
-                MOVE_SWAGGER,
+                MOVE_TELEPORT,
                 MOVE_FLASH,
             },
             },
