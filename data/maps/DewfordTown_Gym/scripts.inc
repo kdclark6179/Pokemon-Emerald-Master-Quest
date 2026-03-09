@@ -182,47 +182,6 @@ DewfordTown_Gym_EventScript_GiveBulkUp2:
 	release
 	end
 
-DewfordTown_Gym_EventScript_GiveTyrogue::
-	lockall
-	goto_if_set FLAG_UNUSED_0x055  DewfordTown_Gym_EventScript_Brawly
-	getpartysize
-	compare VAR_RESULT, 6
-	goto_if_eq DewfordTown_Gym_EventScript_PartyFull
-	givemon SPECIES_TYROGUE, 5, ITEM_BLACK_BELT
-	playfanfare MUS_OBTAIN_ITEM
-	msgbox DewfordTown_Gym_Text_Tyrogue, MSGBOX_DEFAULT
-	waitfanfare
-	setflag FLAG_UNUSED_0x055
-	release
-	end
-
-DewfordTown_Gym_EventScript_PartyFull::
-	lock
-	msgbox DewfordTown_Text_PartyFull, MSGBOX_DEFAULT
-	givemon SPECIES_TYROGUE, 5 ,ITEM_BLACK_BELT
-	playfanfare MUS_OBTAIN_ITEM
-	waitfanfare
-	setflag FLAG_UNUSED_0x055
-	release
-	end
-
-DewfordTown_Gym_Text_Tyrogue::
-.string "BRAWLEY: Looking to surf up\n"
-	.string "to Slateport, huh?\l"
-	.string "Then take this gift.\l"
-	.string "{PLAYER} received TYROGUE from\n"
-	.string "Gym Leader Brawley!$"
-
-DewfordTown_Gym_Text_PartyFull::
-	.string "BRAWLEY: Looking to surf up\n"
-	.string "to Slateport, huh?\l"
-	.string "Then take this gift.\l"
-	.string "Your party is full, but\l"
-	.string "that's ok. I will send it to\l"
-	.string "your box.\p"
-	.string "{PLAYER} received TYROGUE from\n"
-	.string "Gym Leader Brawley!$"
-
 DewfordTown_Gym_EventScript_BrawlyRematch::
 	trainerbattle_rematch_double TRAINER_BRAWLY_1, DewfordTown_Gym_Text_BrawlyPreRematch, DewfordTown_Gym_Text_BrawlyRematchDefeat, DewfordTown_Gym_Text_BrawlyRematchNeedTwoMons
 	msgbox DewfordTown_Gym_Text_BrawlyPostRematch, MSGBOX_AUTOCLOSE
