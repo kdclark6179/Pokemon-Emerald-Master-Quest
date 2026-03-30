@@ -198,7 +198,7 @@ DewfordTown_Gym_EventScript_GiveTyrogue::
 
 DewfordTown_Gym_EventScript_PartyFull::
 	lock
-	msgbox DewfordTown_Text_PartyFull, MSGBOX_DEFAULT
+	msgbox DewfordTown_Gym_Text_PartyFull, MSGBOX_DEFAULT
 	givemon SPECIES_TYROGUE, 5 ,ITEM_BLACK_BELT
 	playfanfare MUS_OBTAIN_ITEM
 	waitfanfare
