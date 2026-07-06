@@ -12578,15 +12578,15 @@ F_TRAINER_FEMALE |
 #line 5093
             .iv = TRAINER_PARTY_IVS(30, 30, 30, 30, 30, 30),
 #line 5092
-            .lvl = 41,
-            .nature = NATURE_HARDY,
+            .lvl = 42,
+            .nature = NATURE_SERIOUS,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 5094
-                MOVE_EARTHQUAKE,
-                MOVE_ANCIENT_POWER,
+                MOVE_MUD_SLAP,
+                MOVE_SANDSTORM,
                 MOVE_PSYCHIC,
-                MOVE_LIGHT_SCREEN,
+                MOVE_REFLECT,
             },
             },
             {
@@ -12596,15 +12596,15 @@ F_TRAINER_FEMALE |
 #line 5101
             .iv = TRAINER_PARTY_IVS(30, 30, 30, 30, 30, 30),
 #line 5100
-            .lvl = 41,
+            .lvl = 42,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 5102
                 MOVE_PSYCHIC,
-                MOVE_SUNNY_DAY,
-                MOVE_CONFUSE_RAY,
-                MOVE_CALM_MIND,
+                MOVE_DOUBLE_TEAM,
+                MOVE_LIGHT_SCREEN,
+                MOVE_BATON_PASS,
             },
             },
             {
@@ -12612,7 +12612,7 @@ F_TRAINER_FEMALE |
             .species = SPECIES_LUNATONE,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 5107
-            .heldItem = ITEM_SITRUS_BERRY,
+            .heldItem = ITEM_TWISTED_SPOON,
 #line 5109
             .iv = TRAINER_PARTY_IVS(30, 30, 30, 30, 30, 30),
 #line 5108
@@ -12621,10 +12621,10 @@ F_TRAINER_FEMALE |
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 5110
-                MOVE_LIGHT_SCREEN,
+                MOVE_MOONBLAST,
                 MOVE_PSYCHIC,
-                MOVE_HYPNOSIS,
-                MOVE_CALM_MIND,
+                MOVE_ROCK_TOMB,
+                MOVE_EXPLOSION,
             },
             },
             {
@@ -12632,7 +12632,7 @@ F_TRAINER_FEMALE |
             .species = SPECIES_SOLROCK,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 5115
-            .heldItem = ITEM_SITRUS_BERRY,
+            .heldItem = ITEM_HARD_STONE,
 #line 5117
             .iv = TRAINER_PARTY_IVS(30, 30, 30, 30, 30, 30),
 #line 5116
@@ -12641,10 +12641,50 @@ F_TRAINER_FEMALE |
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 5118
-                MOVE_SUNNY_DAY,
-                MOVE_SOLAR_BEAM,
+                MOVE_FIRE_BLAST,
+                MOVE_ROCK_SLIDE,
                 MOVE_PSYCHIC,
-                MOVE_FLAMETHROWER,
+                MOVE_EXPLOSION,
+            },
+            },
+            {
+#line 5115
+            .species = SPECIES_GARDERVOIR,
+            .gender = FEMALE,
+#line 5115
+            .heldItem = ITEM_SHELL_BELL,
+#line 5117
+            .iv = TRAINER_PARTY_IVS(30, 30, 30, 30, 30, 30),
+#line 5116
+            .lvl = 45,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .moves = {
+#line 5118
+                MOVE_MOONBLAST,
+                MOVE_SHADOW_BALL,
+                MOVE_PSYCHIC,
+                MOVE_IMPRISON,
+            },
+            },
+            {
+#line 5115
+            .species = SPECIES_GALLADE,
+            .gender = MALE,
+#line 5115
+            .heldItem = ITEM_LEFTOVERS,
+#line 5117
+            .iv = TRAINER_PARTY_IVS(30, 30, 30, 30, 30, 30),
+#line 5116
+            .lvl = 45,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .moves = {
+#line 5118
+                MOVE_PSYCHO_CUT,
+                MOVE_SLASH,
+                MOVE_SWORDS_DANCE,
+                MOVE_BRICK_BREAK,
             },
             },
         },
@@ -12672,74 +12712,80 @@ F_TRAINER_FEMALE |
         {
             {
 #line 5133
-            .species = SPECIES_LUVDISC,
+            .species = SPECIES_LUDICOLO,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 5135
-            .iv = TRAINER_PARTY_IVS(24, 24, 24, 24, 24, 24),
+            .iv = TRAINER_PARTY_IVS(30, 30, 30, 30, 30, 30),
 #line 5134
-            .lvl = 41,
+            .lvl = 45,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 5136
-                MOVE_WATER_PULSE,
-                MOVE_ATTRACT,
-                MOVE_SWEET_KISS,
-                MOVE_FLAIL,
-            },
-            },
-            {
-#line 5141
-            .species = SPECIES_WHISCASH,
-            .gender = TRAINER_MON_RANDOM_GENDER,
-#line 5143
-            .iv = TRAINER_PARTY_IVS(24, 24, 24, 24, 24, 24),
-#line 5142
-            .lvl = 41,
-            .nature = NATURE_HARDY,
-            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
-            .moves = {
-#line 5144
-                MOVE_RAIN_DANCE,
-                MOVE_WATER_PULSE,
-                MOVE_AMNESIA,
-                MOVE_EARTHQUAKE,
+                MOVE_RAINDANCE,
+                MOVE_GIGA_DRAIN,
+                MOVE_DIVE,
+                MOVE_ICE_BEAM,
             },
             },
             {
 #line 5149
             .species = SPECIES_SEALEO,
             .gender = TRAINER_MON_RANDOM_GENDER,
+
+            .heldItem = ITEM_NEVER_MELT_ICE,
 #line 5151
-            .iv = TRAINER_PARTY_IVS(24, 24, 24, 24, 24, 24),
+            .iv = TRAINER_PARTY_IVS(30, 30, 30, 30, 30, 30),
 #line 5150
-            .lvl = 43,
+            .lvl = 45,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 5152
-                MOVE_ENCORE,
+                MOVE_RAIN_DANCE,
+                MOVE_ICE_BEAM,
                 MOVE_BODY_SLAM,
-                MOVE_AURORA_BEAM,
-                MOVE_WATER_PULSE,
+                MOVE_EARTHQUAKE,
             },
             },
             {
 #line 5157
             .species = SPECIES_CRAWDAUNT,
             .gender = TRAINER_MON_RANDOM_GENDER,
+
+            .heldItem = ITEM_SITRUS_BERRY,
 #line 5159
-            .iv = TRAINER_PARTY_IVS(24, 24, 24, 24, 24, 24),
+            .iv = TRAINER_PARTY_IVS(30, 30, 30, 30, 30, 30),
 #line 5158
-            .lvl = 43,
+            .lvl = 45,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 5160
-                MOVE_WATER_PULSE,
+                MOVE_RAIN_DANCE,
                 MOVE_CRABHAMMER,
-                MOVE_TAUNT,
-                MOVE_LEER,
+                MOVE_KNOCK_OFF,
+                MOVE_AERIAL_ACE,
+            },
+            },
+        {
+#line 5141
+            .species = SPECIES_SWAMPERT,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+
+            .heldItem = ITEM_KINGS_ROCK,
+#line 5143
+            .iv = TRAINER_PARTY_IVS(30, 30, 30, 30, 30, 30),
+#line 5142
+            .lvl = 48,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .moves = {
+#line 5144
+                MOVE_RAIN_DANCE,
+                MOVE_MUD_SLAP,
+                MOVE_MUDDY_WATER,
+                MOVE_BLIZZARD,
             },
             },
             {
@@ -12747,19 +12793,19 @@ F_TRAINER_FEMALE |
             .species = SPECIES_KINGDRA,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 5165
-            .heldItem = ITEM_CHESTO_BERRY,
+            .heldItem = ITEM_MYSTIC_WATER,
 #line 5167
             .iv = TRAINER_PARTY_IVS(30, 30, 30, 30, 30, 30),
 #line 5166
-            .lvl = 46,
+            .lvl = 4,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 5168
-                MOVE_WATER_PULSE,
-                MOVE_DOUBLE_TEAM,
+                MOVE_RAINDANCE,
+                MOVE_SMOKE_SCREEN,
                 MOVE_ICE_BEAM,
-                MOVE_REST,
+                MOVE_HYDRO_PUMP,
             },
             },
         },
